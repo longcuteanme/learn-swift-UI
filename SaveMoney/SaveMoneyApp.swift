@@ -11,7 +11,24 @@ import SwiftUI
 struct SaveMoneyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthNavigationView()
         }
+        
+//        WindowGroup {
+//            TabView {
+//                MainView()
+//                    .tabItem {
+//                        Label("Main", systemImage: "house")
+//                    }
+//                HistoryView()
+//                    .tabItem {
+//                        Label("History", systemImage: "clock")
+//                    }
+//                SettingView()
+//                    .tabItem {
+//                        Label("Settings", systemImage: "gear")
+//                    }
+//            }
+//        }
     }
 }
